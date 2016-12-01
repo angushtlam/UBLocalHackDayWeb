@@ -7,7 +7,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 html {
