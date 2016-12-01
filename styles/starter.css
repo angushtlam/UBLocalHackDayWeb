@@ -1,0 +1,114 @@
+html,
+body {
+  font-family: 'Ubuntu Mono', monospace;
+
+}
+
+html {
+  background-color: #272e53;
+  height: 100%;
+}
+
+body {
+  background: url("../assets/bg.jpg");
+  background-attachment: fixed;
+  position: static;
+  background-size: cover;
+  color: #fff;
+  height: 33%;
+
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 2rem;
+}
+
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: bold;
+  color: rgba(255,255,255,.5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255,255,255,.25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 1rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+.lhd-logo {
+  height: auto;
+  width: 360px;
+}
+
+.ubacm-logo {
+  height: auto;
+  width: 140px;
+}
+
+@media (min-width: 40em) {
+  .lhd-logo {
+    height: auto;
+    width: 420px;
+  }
+}
+
+.content-bg {
+  background-color: #fff;
+  color: #111;
+  margin: 50px auto;
+  min-height: 50%;
+}
+
+.content {
+  padding: 15px;
+  min-height: 50%;
+}
+
+.tag {
+  font-size: 14px;
+}
